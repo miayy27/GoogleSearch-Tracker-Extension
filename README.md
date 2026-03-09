@@ -15,4 +15,4 @@ To install and use this extension locally for your own research:
 
 1. Download the ZIP file of this repository or clone it using Git:
    ```bash
-   git clone [https://github.com/](https://github.com/)miayy27/GoogleSearch-Tracker-Extension.git
+   git clone https://github.com/miayy27/GoogleSearch-Tracker-Extension.git
