@@ -16,3 +16,8 @@ To install and use this extension locally for your own research:
 1. Download the ZIP file of this repository or clone it using Git:
    ```bash
    git clone https://github.com/miayy27/GoogleSearch-Tracker-Extension.git
+2. Open Google Chrome and navigate to `chrome://extensions/`.
+3. Enable **"Developer mode"** in the top right corner.
+4. Click **"Load unpacked"** and select the folder containing this extension's files.
+5. The extension is now ready to use.
+
