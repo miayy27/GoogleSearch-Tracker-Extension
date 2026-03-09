@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Logs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        #userIdInput {
+            margin-bottom: 10px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100px;
+            transition: border-color 0.3s ease;
+        }
+
+        #userIdInput:focus {
+            border-color: rgb(141, 149, 207);
+            outline: none;
+        }
+
+        #saveUserId {
+            background-color: rgb(90, 120, 207); /* Change Color */
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-bottom: 10px;
+        }
+
+        #saveUserId:hover {
+            background-color: rgb(80, 110, 197); 
+        }
+
+        .button-container {
+            margin-bottom: 20px;
+        }
+
+        #buttonContainer {
+            text-align: left;
+        }
+
+        .button {
+            background-color: rgb(141, 149, 207);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 5px;
+            transition: background-color 0.3s ease;
+            margin-bottom: 10px;
+        }
+
+        .button:hover {
+            background-color: #7e5d9c;
+        }
+
+        #logsDisplay {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            max-height: 300px;
+            overflow-y: auto;
+            display: none;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="userIdInput" placeholder="Enter User ID">
+    <button id="saveUserId">Save ID</button>
+
+    <div class="button-container">
+        <div id="buttonContainer">
+            <button id="showLogs" class="button">Show Logs</button>
+            <button id="hideLogs" class="button" style="display: none;">Hide Logs</button>
+            <button id="saveButton" class="button" style="display: none;">Download Logs</button>
+        </div>
+    </div>
+    <div id="logsDisplay"></div>
+
+    <script src="options.js"></script>
+</body>
+</html>
